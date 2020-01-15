@@ -4,7 +4,11 @@ namespace ElementModifier
 {
   class ElementModifierTask
   {
-    public string UniqueId { get; set; }
+    public ElementId Id { get; set; }
+  }
+
+  class ElementModifierTaskDelete : ElementModifierTask
+  {
   }
 
   class ElementModifierTaskMove : ElementModifierTask
@@ -14,6 +18,6 @@ namespace ElementModifier
 
   class ElementModifierTaskSetType : ElementModifierTask
   {
-    public ElementId NewTypeId { get; set; }
+    public ElementId TypeId { get; set; }
   }
 }

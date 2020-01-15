@@ -37,6 +37,9 @@ using System.Runtime.InteropServices;
 // 
 // 2020-01-15 2020.0.0.0 add-in skeleton code
 // 2020-01-15 2020.0.0.0 implemented task data
+// 2020-01-15 2020.0.0.0 implemented ParseTasks for move command
+// 2020-01-16 2020.0.0.0 implemented first task execution version
+// 2020-01-16 2020.0.0.0 implemented message log
 //
 [assembly: AssemblyVersion( "2020.0.0.0" )]
 [assembly: AssemblyFileVersion( "2020.0.0.0" )]
