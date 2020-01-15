@@ -36,6 +36,7 @@ using System.Runtime.InteropServices;
 // History:
 // 
 // 2020-01-15 2020.0.0.0 add-in skeleton code
+// 2020-01-15 2020.0.0.0 implemented task data
 //
 [assembly: AssemblyVersion( "2020.0.0.0" )]
 [assembly: AssemblyFileVersion( "2020.0.0.0" )]
