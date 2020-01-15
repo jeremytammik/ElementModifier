@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command ElementModifier</Text>
+    <Description>Some description for ElementModifier</Description>
+    <Assembly>ElementModifier.dll</Assembly>
+    <FullClassName>ElementModifier.Command</FullClassName>
+    <ClientId>22cd4b85-6782-4b1e-ba91-81fbd6a40cb3</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
