@@ -44,7 +44,7 @@ Comment lines starting with `#` are supported.
 
 White space is ignored.
 
-ANy violation of this format throws an exception and terminates the add-in execution.
+Any violation of this format throws an exception and terminates the add-in execution.
 
 Hence, this ia a valid command file:
 
