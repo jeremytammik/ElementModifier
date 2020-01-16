@@ -20,6 +20,49 @@ The operations are reversible, i.e., can be undone, e.g., using Ctrl + Z.
 If any problem crops up executing the operation in the BIM (and it will!) the operation is simply cancelled and the failure reported back to `C:\tmp\element_modifier_log.txt`.
 
 
+## Command File Format
+
+The command file format is quite flexible.
+
+Three command tokens are supported:
+
+- delete
+- move
+- settype
+
+All three require a second token, the unique id of the element to modify.
+
+Delete is happy with just that.
+
+Settype required an element id of the new type to set.
+
+Move requires three tokens for the X, Y and Z coordinates of the new location point.
+
+The tokens can be separated by parenthesis, commata or just spaces.
+
+Comment lines starting with `#` are supported.
+
+White space is ignored.
+
+ANy violation of this format throws an exception and terminates the add-in execution.
+
+Hence, this ia a valid command file:
+
+```
+  Delete(3ded2a48-367f-42c7-83bd)
+  Move(3ded2a48-367f-42c7-83bd,1,0,0)
+  SetType(3ded2a48-367f-42c7-83bd,1234567)
+```
+
+So is this:
+
+```
+  # 2020-01-16 test input file
+  delete 3ded2a48-367f-42c7-83bd
+  move 3ded2a48-367f-42c7-83bd 1 0 0
+  settype 3ded2a48-367f-42c7-83bd 1234567
+```
+
 ## Author
 
 Jeremy Tammik, [The Building Coder](http://thebuildingcoder.typepad.com), [ADN](http://www.autodesk.com/adn) [Open](http://www.autodesk.com/adnopen), [Autodesk Inc.](http://www.autodesk.com)
