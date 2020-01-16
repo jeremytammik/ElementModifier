@@ -34,7 +34,7 @@ All three require a second token, the unique id of the element to modify.
 
 Delete is happy with just that.
 
-Settype required an element id of the new type to set.
+Settype requires the element id of the new type to set.
 
 Move requires three tokens for the X, Y and Z coordinates of the new location point.
 
