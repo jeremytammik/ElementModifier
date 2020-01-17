@@ -63,6 +63,12 @@ So is this:
   settype 3ded2a48-367f-42c7-83bd 1234567
 ```
 
+Here is a [sample command file used for successful testing](test/element_modifier_tasks_little_house.txt) in the little house model.
+
+It moves a windiow, deletes a door and changes the type of the second window, producing the following undo stack in the user interface:
+
+<img src="img/undo_stack.png" alt="Undo stack" title="Undo stack" width="498"/> <!-- 498 -->
+
 ## Author
 
 Jeremy Tammik, [The Building Coder](http://thebuildingcoder.typepad.com), [ADN](http://www.autodesk.com/adn) [Open](http://www.autodesk.com/adnopen), [Autodesk Inc.](http://www.autodesk.com)
