@@ -1,0 +1,10 @@
+# window
+# original (17.6837270515748, 0, 3.93700787401575)
+# new (17.7, 0, 4.9)
+move 350455b1-0caa-40c7-b6be-6824d578a800-0004b28b 17.7 0.0 4.9
+# door
+delete 350455b1-0caa-40c7-b6be-6824d578a800-0004b287
+# window
+settype 350455b1-0caa-40c7-b6be-6824d578a800-0004b289 248056
+
+# > copy Z:\a\src\rvt\ElementModifier\test\element_modifier_tasks_little_house.txt C:\tmp\element_modifier_tasks.txt
